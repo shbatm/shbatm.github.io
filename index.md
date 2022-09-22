@@ -1,5 +1,1 @@
-Here you can say lots of fun things about your site.
-
-Maybe say a some things about yourself.
-
-Or maybe what you plan to blog about.
+Details on my projects in Home Automation, 3D Printing, DIY Electronics, and other hobbies.
