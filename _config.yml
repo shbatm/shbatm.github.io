@@ -21,6 +21,9 @@ reddit_username: "shbatm"
 #########################################################################################
 theme: "minima"
 
+timezone: Etc/UTC # GitHub uses UTC. This is to force dev environment to match
+future: false # GitHub Pages will publish future posts if this isn't set to false
+
 rss: rss
 
 kramdown:
@@ -34,6 +37,8 @@ plugins:
 titles_from_headings:
   strip_title: true
   collections: true
+  
+gravatar_hash: 92d5e2c53584055f2217d16a3aefe73b
 
 defaults:
   - scope:
@@ -41,3 +46,6 @@ defaults:
       type: post
     values:
       tags: Other
+      
+# The github repo that is to be used for looking up comments
+comments_repo: shbatm/shbatm.github.io
